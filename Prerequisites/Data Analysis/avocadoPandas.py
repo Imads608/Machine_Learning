@@ -20,7 +20,7 @@ def part2():
     albany_df.set_index("Date", inplace = True)
     albany_df.sort_index(inplace=True)
     albany_df["price25ma"] = albany_df["AveragePrice"].rolling(25).mean()
-    print(albany_df.head(30))
+    #print(albany_df.head(30))
 
 
     df = df.copy()[df['type'] == 'organic']
@@ -35,8 +35,8 @@ def part2():
             graph_df = region_df[[strColName]]
         else:
             graph_df = graph_df.join(region_df[strColName])
-    graph_df.dropna().plot(figsize=(8, 5), legend=False)
-    plt.show()
-
+    #graph_df.dropna().plot(figsize=(8, 5), legend=False)
+    #plt.show()
+    print(df["region"])
 if __name__ == "__main__":
     part2()

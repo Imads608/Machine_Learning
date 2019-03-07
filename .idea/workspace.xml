@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="922916fc-3b8c-449b-9438-6a439e72acf3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py" afterPath="$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py" />
+      <change beforePath="$PROJECT_DIR$/part2.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="part2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pandasIntro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -36,10 +24,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="avocadoPandas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
+            <state relative-caret-position="735">
               <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="minWage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/minWage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
+            <state relative-caret-position="1701">
               <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -66,8 +66,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/regression.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/part2.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/minWage.py" root0="SKIP_INSPECTION" />
   </component>
@@ -78,10 +78,11 @@
         <option value="$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py" />
         <option value="$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py" />
         <option value="$PROJECT_DIR$/Prerequisites/Data Analysis/minWage.py" />
+        <option value="$PROJECT_DIR$/regression.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
@@ -141,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.minWage">
+  <component name="RunManager" selected="Python.regression">
     <configuration name="avocadoPandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,18 +215,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <configuration name="regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Machine_Learning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.part2" />
       <item index="1" class="java.lang.String" itemvalue="Python.pandasIntro" />
       <item index="2" class="java.lang.String" itemvalue="Python.avocadoPandas" />
       <item index="3" class="java.lang.String" itemvalue="Python.minWage" />
+      <item index="4" class="java.lang.String" itemvalue="Python.regression" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.minWage" />
-        <item index="1" class="java.lang.String" itemvalue="Python.avocadoPandas" />
-        <item index="2" class="java.lang.String" itemvalue="Python.pandasIntro" />
-        <item index="3" class="java.lang.String" itemvalue="Python.part2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.regression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.minWage" />
+        <item index="2" class="java.lang.String" itemvalue="Python.avocadoPandas" />
+        <item index="3" class="java.lang.String" itemvalue="Python.pandasIntro" />
+        <item index="4" class="java.lang.String" itemvalue="Python.part2" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +273,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3364008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34407485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -281,16 +302,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part2.py">
+    <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/minWage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part2.py" />
     <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -309,6 +359,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/part2.py" />
     <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/pandasIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -319,7 +370,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/avocadoPandas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
+        <state relative-caret-position="735">
           <caret line="36" column="29" lean-forward="false" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -329,7 +380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Prerequisites/Data Analysis/minWage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
+        <state relative-caret-position="1701">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -337,10 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part2.py">
+    <entry file="file://$PROJECT_DIR$/regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="268">
+          <caret line="40" column="48" lean-forward="true" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

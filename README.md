@@ -1,1 +1,1 @@
-Machine Learning from sentdex course on Youtube
+Machine Learning from sentdex course on Youtube and Udacity
